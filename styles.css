@@ -1,6 +1,83 @@
-*{
+body{
+    background-color: black;
     border: solid black;
+    margin: auto;
+    
+}
+*{
+    margin: 0;
 }
 .wrapper{
+    background-color : white;
     width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+
+}
+.brand{
+    display: flex;
+    
+}
+.titulo{
+    vertical-align: top;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    
+}
+h1{
+    font-size: medium;
+}
+
+.logo{
+    padding-left: 7px;
+    padding-top: 12px;
+    align-items: center;
+}
+
+img{
+    height: 100%;
+    width: 99%;
+    padding: 2px;
+}
+.top-two{
+    display: flex;
+    justify-content: space-between;
+}
+.iconos-derecha{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.iconos-derecha-two{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.iconos-izquierda{
+    display: inline-block;
+    padding-right: 2%;
+    padding-top: 5px;
+}
+.centro{
+    font-style: italic;
+    font-size: large;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.bottom{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 25px;
+    font-style: italic;
+    text-align: justify;
 }
